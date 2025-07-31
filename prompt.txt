@@ -1,0 +1,33 @@
+I’m creating an Anki flashcard for the Chinese phrase: PHRASE
+
+Please give me the BACK SIDE of the card using the following HTML layout (I will paste it into Anki).
+Since I am learning HSK4 use mostly HSK4 characters.
+
+Use this structure:
+-------------------------------------------------------
+<div style="text-align: center;">
+  <div class="color-coding hanzi"> 
+    <span class="mandarin">character1</span>
+    <span class="mandarin">character2</span>
+    [repeat for the whole phrase]  
+  </div>
+  <div class="pinyin-phrase">([pinyin])</div>
+  <br>
+  [Meaning/ Translation]
+  <br>
+</div>
+
+<hr>
+
+<div style="text-align: left;">
+  <ol>
+    <li class="examples">
+      <div class="hanzi">[Example 1 Chinese]</div>
+      <div class="pinyin">([Example 1 Pinyin])</div>
+      <div class="meaning">[Example 1 Meaning/ Translation]</div>
+      <br>
+    </li>
+    [2 more examples in the same fashion as Example 1] 
+  </ol>
+</div>
+-------------------------------------------------------

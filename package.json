@@ -1,0 +1,28 @@
+{
+  "name": "anki-hanzi-colorizer",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "colorize": "tsc && node dist/colorize.js",
+    "tts": "tsc && node dist/tts.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.5.0",
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
+    "chinese-to-pinyin": "^1.3.1",
+    "dotenv": "^17.2.0"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  }
+}
